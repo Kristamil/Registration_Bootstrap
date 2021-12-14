@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<style>
+    body{
+        background-image: url("3D-wallpaper-red-blue.jpg");
+    }
+    .container-md
+    {
+        width:600px;
+        margin:3% 25%;
+    }
+    .btn 
+    {
+        margin:5% 25%;
+        width: 250px;
+        height:50px;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div class="container-md shadow-lg mb-5 bg-primary rounded p-5 border">
+    <form>
+        <div class="text-danger text-center"><h1>REGISTER NEW ACCOUNT</h1><hr></div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3 text-warning font-weight-bold">
+            <label for="validationServer01">First name</label>
+            <input type="text" class=" form-control is-valid" placeholder="First name" required>
+          </div>
+          <div class="col-md-6 mb-3 text-warning font-weight-bold">
+            <label for="validationServer01">Last name</label>
+
+            <input type="text" class="form-control is-valid" placeholder="Last name" required>
+          </div>
+          <div class="col-md-12 text-warning font-weight-bold">
+              <label for="validationServer01">UserName</label>
+              <input type="text" class="form-control is-valid" placeholder="UserName" required>
+          </div>
+          <div class="col-md-12 text-warning font-weight-bold">
+              <label for="validationServer01">E-mail</label>
+              <input type="email" class="form-control is-valid" value="email@example.com"placeholder="Enter the E-mail" required>
+
+          </div>
+          <div class="col-md-6 text-warning font-weight-bold">
+              <label> City*</label>
+              <input type="text" class="form-control" placeholder="Enter City" required>
+          </div>
+          <div class="col-md-6 text-warning font-weight-bold">
+              <label>State</label>
+              <select class=custom-select aria-describedby="validationServer04Feedback" placeholder="Enter the State" required>
+                <option selected disabled value="">Choose...</option>
+                <option>TamilNadu</option>
+                <option>Kerala</option>
+                <option>Andra Pradesh</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Haryana</option>
+                <option>Bhigar</option>
+                <option>Sateeshkar</option>
+                <option>Pandichery</option>
+                <option>Telungana</option>
+                <option>Karnataka</option>
+                <option>Uttar Pradesh</option>
+                <option>Gujarath</option>
+                <option>Mathya Pradesh</option>
+                <option>Punjab</option>
+                <option>Assam</option>
+                <option>Kashmir</option>
+                <option>Gova</option>
+                <option>Sandikar</option>
+                <option>Vijayavada</option>
+
+              </select>
+              
+          </div>
+          <div class="col-md-7 text-warning font-weight-bold">
+              <label>Contact-No</label>
+              <input type="tel"placeholder="Eg.123456789"class="form-control">
+          </div>
+          <div class="col-md-6 text-warning font-weight-bold">
+              <label>New Password</label>
+              <input type="password"placeholder="Type Valid Password" class="form-control">
+          </div>
+          <div class="col-md-6 text-warning font-weight-bold">
+            <label>Confirm Password</label>
+            <input type="password"placeholder="Re-Type Valid Password" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success rounded-pill font-weight-bold ">Create Account</button>
+        </div>
+
+      </form>
+    </div>
+</body>
+</html>
